@@ -416,7 +416,7 @@ Script1_2.TextScaled = true
 Script1_2.TextSize = 14.000
 Script1_2.TextWrapped = true
 Script1.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 end)
 
 Script2_2.Name = "Script2"
