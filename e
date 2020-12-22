@@ -438,7 +438,7 @@ Script1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script1_2.TextScaled = true
 Script1_2.TextSize = 14.000
 Script1_2.TextWrapped = true
-Script1.MouseButton1Click:connect(function()
+Script1_2.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 end)
 
