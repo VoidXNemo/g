@@ -221,11 +221,14 @@ Script1.BorderSizePixel = 0
 Script1.Position = UDim2.new(0, 0, 1.38088595e-07, 0)
 Script1.Size = UDim2.new(0, 446, 0, 50)
 Script1.Font = Enum.Font.GothamBold
-Script1.Text = "Script lol"
+Script1.Text = "Infinte Yeild"
 Script1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script1.TextScaled = true
 Script1.TextSize = 14.000
 Script1.TextWrapped = true
+Script1.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 Script2.Name = "Script2"
 Script2.Parent = ScriptsF
@@ -235,11 +238,31 @@ Script2.BorderSizePixel = 0
 Script2.Position = UDim2.new(0, 0, 0.271493345, 0)
 Script2.Size = UDim2.new(0, 446, 0, 50)
 Script2.Font = Enum.Font.GothamBold
-Script2.Text = "Script lol"
+Script2.Text = "Fe Btools"
 Script2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script2.TextScaled = true
 Script2.TextSize = 14.000
 Script2.TextWrapped = true
+Script2.MouseButton1Click:connect(function()
+	_G.CheckCustomBuilds = true
+	_G.DefaulBuilds = true
+	_G.Barrier = true
+	_G.bridge2 = true
+	_G.bridge4 = true
+	_G.ladder = true
+	_G.Nazi = true
+	_G.penis = true
+	_G.platform = true
+	_G.stairs = true
+	_G.BigPP = true
+
+	_G.RGB = false
+	_G.RGBswitchDelay = .4
+
+	_G.RejoinWaitDelayForReExecute = 5  -- tell how long the script will wait before rejoining (for synapse script queing)
+
+	loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+end)
 
 Beta.Name = "Beta"
 Beta.Parent = Frame
